@@ -8,7 +8,7 @@ This project use AWS services.
 - Postgres Database hosted on RDS
 
 **Frontend:**
-- An Angular application deployed to S+ bucket. 
+- An Angular application deployed to S3 bucket. 
 
 
 ![diagram](./WebhostProjectInfrastructure.drawio.png)

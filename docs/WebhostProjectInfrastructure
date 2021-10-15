@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T11:58:33.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.0" etag="mAN9Lly-tcKvkOewrOUR" type="github"><diagram id="6PiqyWm98KbM7UZCjV3o">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-15T12:07:03.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="WkjG4hXSGewu1PWc1Xh_" version="15.5.0" type="github">
+  <diagram id="6PiqyWm98KbM7UZCjV3o" name="Page-1">
+    <mxGraphModel dx="1567" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="570" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-6" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_cube.svg;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="215" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-7" value="Postrges DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-8" value="AWS RDS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aa1CF5Uraz33YP4qAdN_-9" target="Aa1CF5Uraz33YP4qAdN_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="204" width="67.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-10" value="Backend hosted by Elastic Beanstalk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aa1CF5Uraz33YP4qAdN_-11" target="Aa1CF5Uraz33YP4qAdN_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-11" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="503" y="204" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-12" value="Frontend on S3 bucket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496.25" y="160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-13" value="Amazon Web Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aa1CF5Uraz33YP4qAdN_-15" target="Aa1CF5Uraz33YP4qAdN_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-15" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="526" y="390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-16" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="511" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-20" value="HTTP requests" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa1CF5Uraz33YP4qAdN_-21" value="Database use" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

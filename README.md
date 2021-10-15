@@ -12,6 +12,7 @@ http://udacity-webhost-project.s3-website-us-east-1.amazonaws.com/home
 https://app.circleci.com/pipelines/github/CsabaBuchert/DeploymentProcessProjectCode/11/workflows/49c2ea78-0c08-482d-8823-dd39157ef016/jobs/16
 
 ## Documentations
-- Documentation is under [docs](./docs) folder.
+- [Infrastrucrure](./docs/infrastructure.md) documentation.
+- [Pipeline](./docs/pipeline.md) documentation.
 - Screenshots is under [screenshots](./screenshots) folder.
 - Developer step by step guide for this project: [see](./udagram/README_FOR_ME.md)

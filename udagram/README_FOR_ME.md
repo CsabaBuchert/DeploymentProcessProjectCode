@@ -14,3 +14,5 @@ https://dzone.com/articles/deploying-an-angular-app-to-aws-s3
 2. install eb on local computer: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html
 3. init elastic neanstalk: eb init in api repo and configure yaml file
 4. create scripts to api build and deploy
+5. create postgres database
+6. set enviroment variables on elastic beanstalk, see config.ts file

@@ -1,13 +1,17 @@
 # Hosting a Full-Stack Application
+This is a sample project to host an aplications backend via aws beanstalk, and host the frontend via aws S3 bucket. This project use continous integration too.
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
+## Links
+### AWS Elastic Beanstalk - Backend:
+http://udacitywebhostproject-env.eba-zt7vwbnb.us-east-1.elasticbeanstalk.com/
 
----
+### AWS S3 - Frontend:
+http://udacity-webhost-project.s3-website-us-east-1.amazonaws.com/home
 
-In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
+### CirlceCi
+https://app.circleci.com/pipelines/github/CsabaBuchert/DeploymentProcessProjectCode/11/workflows/49c2ea78-0c08-482d-8823-dd39157ef016/jobs/16
 
-After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
-
-You will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, you will write a config.yml file that will make the process reproducible in CircleCi. You will set up the process to be executed automatically based when code is pushed on the main Github branch.
-
-The project will also include writing documentation and runbooks covering the operations of the deployment process. Those runbooks will serve as a way to communicate with future developers and anybody involved in diagnosing outages of the Full-Stack application.
+## Documentations
+- Documentation is under [docs](./docs) folder.
+- Screenshots is under [screenshots](./screenshots) folder.
+- Developer step by step guide for this project: [see](./udagram/README_FOR_ME.md)

@@ -6,7 +6,7 @@ This is a sample project to host an aplications backend via aws beanstalk, and h
 http://udacitywebhostproject-env.eba-zt7vwbnb.us-east-1.elasticbeanstalk.com/
 
 ### AWS S3 - Frontend:
-http://udacity-webhost-project.s3-website-us-east-1.amazonaws.com/home
+http://udacity-webhost-project.s3-website-us-east-1.amazonaws.com
 
 ### CirlceCi
 https://app.circleci.com/pipelines/github/CsabaBuchert/DeploymentProcessProjectCode/11/workflows/49c2ea78-0c08-482d-8823-dd39157ef016/jobs/16

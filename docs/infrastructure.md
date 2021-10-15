@@ -3,11 +3,10 @@ This project use AWS services.
 
 ## Services
 ### Backend
-**Backend:**
 - A node.js based application running on Elastic Beanstalk.
 - Postgres Database hosted on RDS
 
-**Frontend:**
+### Frontend
 - An Angular application deployed to S3 bucket. 
 
 

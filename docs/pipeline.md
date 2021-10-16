@@ -7,4 +7,8 @@ This project use CircleCI. CircleCI automatically build and deploy the project t
 - Back-End deploy to EB
 - Front-End install dependencies
 - Front-End build
+- Front-End test
 - Front-End deploy to S3 bucket
+
+## Pipeline diagram
+![diagram](./WebhostProjectPipeline.drawio.png)
